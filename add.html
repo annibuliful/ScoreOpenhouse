@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/notify.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $("#submit").click(function() {
+        $.notify.addStyle('happyblue', {
+            html: "<div><h1>☺<span data-notify-text/>☺</h1></div>",
+            classes: {
+                base: {
+                    "white-space": "nowrap",
+                    "background-color": "lightblue",
+                    "padding": "5px"
+                },
+                superblue: {
+                    "color": "white",
+                    "background-color": "blue"
+                }
+            }
+        });
+          $.post("add.php", {
+                  num: $("#num").val(),
+                  school: $("#school").val(),
+                  score: $("#score").val(),
+                  coin: $("#coin").val(),
+                  flag: $("#flag").val(),
+                  type: $( "#type option:selected" ).val(),
+                  grade: $( "#grade option:selected" ).val(),
+                  type2: $( "#type2 option:selected" ).val()
+              },
+              function(result) {
+                  $.notify("บันทึกเรียบร้อย", {
+                      style: 'happyblue'
+                  });
+              }
+          );
+
+      });
+                            });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-5 col-xs-12">
+            <form class="form-horizontal" action="" method="get">
+                <div class="form-group">
+                    <label class="control-label col-sm-2">ลำดับที่</label>
+                    <div class="col-sm-10">
+                        <input id="num"type="text" name="num" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">โรงเรียน</label>
+                    <div class="col-sm-10">
+                        <input id="school" type="text" name="school" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">คะแนน</label>
+                    <div class="col-sm-10">
+                        <input id="score" type="text" name="score" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">เหรียญ</label>
+                    <div class="col-sm-10">
+                        <input id="coin" type="text" name="coin" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">อันดับที่</label>
+                    <div class="col-sm-10">
+                        <input id="flag" type="text" name="flag" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">รายการ</label>
+                    <div class="col-sm-10">
+                        <select name="type" class="form-control" id="type">
+                          <option  value="1">การแข่งขันอ่าน-เขียนคำ</option>
+                          <option  value="2">การแข่งขันคัดลายมือ</option>
+                          <option  value="3">การแข่งขันอัจฉริยภาพทางคณิตศาสตร์</option>
+                          <option  value="4">การแข่งขันคิดเลขเร็ว</option>
+                          <option  value="5">การแข่งขันอัจฉริยภาพทางวิทยาศาสตร์</option>
+                          <option  value="6">การประกวดโครงงานวิทยาศาสตร์  ประเภททดลอง</option>
+                          <option  value="7">การประกวดโครงงานวิทยาศาสตร์   ประเภทสิ่งประดิษฐ์</option>
+                          <option  value="8">การแข่งขัน“สวดมนต์หมู่ทำนองสรภัญญะ</option>
+                          <option  value="9">การแข่งขัน“เกมอัจฉริยะสังคมศึกษา”</option>
+                          <option  value="10">การแข่งขันทักษะกีฬาวอลเลย์บอล</option>
+                          <option  value="11">การแข่งขันฟุตบอล</option>
+                          <option  value="12">การแข่งขันเซปัคตะกร้อ</option>
+                          <option  value="13">การแข่งขันประกวด “ร้องเพลงไทยลูกทุ่ง”</option>
+                          <option  value="14">การแข่งขันกิจกรรมSpelling Bees (การแข่งขันสะกดคำภาษาอังกฤษ)</option>
+                          <option  value="15">การแข่งขันกิจกรรมQuiz (การแข่งขันตอบคำถามภาษาอังกฤษ)</option>
+                          <option  value="16">การแข่งขัน“ขับร้องเพลงภาษาจีน”</option>
+                          <option  value="17">การแข่งขันสร้างหนังสืออิเล็กทรอนิกส์(E - book)</option>
+                          <option  value="18">การแข่งขันสร้าง Webpage ประเภท “Web Editor”</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">ระดับ</label>
+                    <div class="col-sm-10">
+                      <select name="grade" class="form-control" id="grade">
+                        <option value="pra">ประถมปลาย</option>
+                        <option value="ton">มัธยมต้น</option>
+                        <option value="pai">มัธยมปลาย</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2">ประเภท</label>
+                    <div class="col-sm-10">
+                      <select name="type2" class="form-control" id="type2">
+                        <option value="one">เดี่ยว</option>
+                        <option value="team">ทีม</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button id="submit" type="button" class="btn btn-default btn-info">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
