@@ -13,7 +13,6 @@ if (isset($_POST['type'])) {
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
           <th>อันดับ</th>
         </tr>
       </thead>';
@@ -22,7 +21,7 @@ if (isset($_POST['type'])) {
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
             <td>{$fetch[$i]['flag']}</td>
           </tr>
         </tbody>";

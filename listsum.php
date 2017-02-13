@@ -12,7 +12,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -22,7 +22,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -45,7 +45,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+          
 
           <th>อันดับ</th>
         </tr>
@@ -55,7 +55,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -78,7 +78,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -88,7 +88,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -111,7 +111,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -121,7 +121,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -144,7 +144,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -154,7 +154,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -177,7 +177,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -187,7 +187,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -210,7 +210,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -220,7 +220,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -243,7 +243,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -253,7 +253,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -276,7 +276,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -286,7 +286,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -309,7 +309,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -319,7 +319,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -342,7 +342,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -352,7 +352,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -375,7 +375,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -385,7 +385,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -408,7 +408,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -418,7 +418,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -441,7 +441,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -451,7 +451,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -474,7 +474,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -484,7 +484,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -507,7 +507,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -517,7 +517,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -540,7 +540,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -550,7 +550,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -573,7 +573,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -583,7 +583,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -606,7 +606,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -616,7 +616,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -639,7 +639,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -649,7 +649,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -672,7 +672,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -682,7 +682,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -705,7 +705,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -715,7 +715,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -738,7 +738,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -748,7 +748,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -771,7 +771,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -781,7 +781,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -804,7 +804,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -814,7 +814,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -837,7 +837,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -847,7 +847,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -870,7 +870,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -880,7 +880,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -903,7 +903,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -913,7 +913,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -936,7 +936,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -946,7 +946,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -969,7 +969,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -979,7 +979,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
@@ -1002,7 +1002,7 @@
         <tr>
           <th>ที่</th>
           <th>โรงเรียน</th>
-          <th>คะแนน</th>
+
 
           <th>อันดับ</th>
         </tr>
@@ -1012,7 +1012,7 @@
           <tr>
             <td>{$fetch[$i]['num']}</td>
             <td>{$fetch[$i]['school']}</td>
-            <td>{$fetch[$i]['score']}</td>
+
 
             <td>{$fetch[$i]['flag']}</td>
           </tr>
